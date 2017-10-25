@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="41093" started-at="2017-10-25T10:07:27Z" finished-at="2017-10-25T10:08:08Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="41093" started-at="2017-10-25T10:07:27Z" finished-at="2017-10-25T10:08:08Z">
+      <class name="automationFramework.Verify_Create_Worker_Feature">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:automationFramework.Verify_Create_Worker_Feature@20e2cbe0]" name="beforeTest" is-config="true" duration-ms="5510" started-at="2017-10-25T18:07:27Z" finished-at="2017-10-25T18:07:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="verify_login_page()[pri:0, instance:automationFramework.Verify_Create_Worker_Feature@20e2cbe0]" name="verify_login_page" duration-ms="1969" started-at="2017-10-25T18:07:33Z" finished-at="2017-10-25T18:07:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_login_page -->
+        <test-method status="PASS" signature="verify_add_worker_button_present()[pri:0, instance:automationFramework.Verify_Create_Worker_Feature@20e2cbe0]" name="verify_add_worker_button_present" duration-ms="12381" started-at="2017-10-25T18:07:35Z" finished-at="2017-10-25T18:07:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_add_worker_button_present -->
+        <test-method status="PASS" signature="verify_create_worker_successfully()[pri:0, instance:automationFramework.Verify_Create_Worker_Feature@20e2cbe0]" name="verify_create_worker_successfully" duration-ms="20017" started-at="2017-10-25T18:07:47Z" finished-at="2017-10-25T18:08:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_create_worker_successfully -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:automationFramework.Verify_Create_Worker_Feature@20e2cbe0]" name="afterTest" is-config="true" duration-ms="1202" started-at="2017-10-25T18:08:07Z" finished-at="2017-10-25T18:08:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- automationFramework.Verify_Create_Worker_Feature -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
