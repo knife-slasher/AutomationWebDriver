@@ -1,0 +1,19 @@
+CronJobs
+    - Data Retention
+        - 2 weeks
+            - delete data after
+
+
+robot --variable CLI_BROWSER:chrome --variable CLI_OS:WINDOWS --variable CLI_TEST_MODE:local --variable CLI_MAIN_URL:dev16.gigabook.com --outputdir /var/lib/jenkins/workspace/robot-default-chrome-ggb-smart-start/reports .
+
+robot --variable CLI_BROWSER:chrome --variable CLI_OS:WINDOWS --variable CLI_TEST_MODE:local --variable CLI_MAIN_URL:dev16.gigabook.com  ./Business_info.robot
+
+# Prefix and suffix selector
+
+css=input[id^=employees-][id*=first-name]:visible
+
+Email:
+Robert
+Paul
+Wendel
+Francine
